@@ -1,0 +1,11 @@
+Imagina que estás en mitad de programar un algoritmo en Calculadora.java , con variables a medias
+y código que ni siquiera compila. De pronto te mandan arreglar urgentemente un bug, necesitas
+limpiar tu espacio de trabajo sin que tus modificaciones a medias interfieran o se pierdan.
+
+No puedes hacer commit porque el código está roto, no está preparado para subirse. La solución es
+apartar temporalmente los cambios al cajón con git stash :
+
+Guardar cambios en el cajón temporal:
+git stash
+Salida en pantalla:
+Saved working directory and index state WIP on main: 4a7c1d2 feat: anadir factorial

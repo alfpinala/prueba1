@@ -1,0 +1,13 @@
+#no se añaden los archivos .php
+*.php
+*.txt
+
+# ignora la carpeta /bin
+bin/
+
+#excluye los archivos binarios de java
+*.class
+
+#ignora todos los txt menos texto.txt
+!texto.txt
+
